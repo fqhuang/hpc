@@ -1,9 +1,10 @@
-# HPC Cloud解决方案 用户指南 01
+# 用户指南
 
 -   [简介]
     -   [HPC简介](HPC简介.md)
     -   [HPC和公有云](HPC和公有云.md)
     -   [IPoIB功能简介](IPoIB功能简介.md)
+    -   [配额](配额.md)
 
 -   [弹性云服务器场景典型应用]
     -   [创建支持IB网卡的弹性云服务器](创建支持IB网卡的弹性云服务器.md)
@@ -47,3 +48,7 @@
         -   [Spectrum MPI（BMS场景）](Spectrum-MPI（BMS场景）.md)
         -   [Intel MPI（BMS场景）](Intel-MPI（BMS场景）.md)
         -   [Platform MPI（BMS场景）](Platform-MPI（BMS场景）.md)
+
+
+
+
