@@ -30,7 +30,6 @@
 
         默认安装路径为/opt/ibm/platform\_mpi。
 
-
 2.  配置MPI环境变量。
     1.  <a name="li43811143171922"></a>执行以下命令，获取pkey。
 
@@ -60,7 +59,6 @@
 
         **图 3**  Platform MPI环境变量导入成功<a name="fig111552297711"></a>  
         ![](figures/Platform-MPI环境变量导入成功.png "Platform-MPI环境变量导入成功")
-
 
 3.  执行下列命令，在单个ECS上运行Platform MPI。
     1.  执行以下命令，重新编译hello.c文件。

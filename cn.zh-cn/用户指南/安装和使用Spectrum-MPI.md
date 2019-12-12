@@ -48,7 +48,6 @@ IBM Spectrum MPI v10.1版本当前支持的操作系统列表如下：
 
                 **\# export IBM\_SPECTRUM\_MPI\_LICENSE\_ACCEPT=no**
 
-
         3.  安装License部分。
             -   选择自动接受IBM Spectrum MPI安装许可协议的，执行以下命令：
 
@@ -60,11 +59,9 @@ IBM Spectrum MPI v10.1版本当前支持的操作系统列表如下：
 
                 **\# sh /opt/ibm/spectrum\_mpi/lap\_se/bin/accept\_spectrum\_mpi\_license.sh**
 
-
         4.  安装软件部分。
 
             **\# rpm -ivh ibm\_smpi-10.01.01.0Eval-rh7\_Aug11.x86\_64.rpm**
-
 
 
 2.  配置环境变量。
@@ -86,7 +83,6 @@ IBM Spectrum MPI v10.1版本当前支持的操作系统列表如下：
 
         **图 1**  检查MPI环境变量<a name="fig13101155891920"></a>  
         ![](figures/检查MPI环境变量.png "检查MPI环境变量")
-
 
 3.  在单个BMS上通过Spectrum MPI运行可执行文件。
     1.  假设hello.c文件在“/home/rhel/”目录下，生成的可执行文件名为hello，执行以下命令：

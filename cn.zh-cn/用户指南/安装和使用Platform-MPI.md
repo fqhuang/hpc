@@ -31,7 +31,6 @@
         **图 1**  Platform MPI成功安装<a name="fig2961183317256"></a>  
         ![](figures/Platform-MPI成功安装.png "Platform-MPI成功安装")
 
-
 2.  配置环境变量。
     1.  <a name="li43811143171922"></a>执行以下命令，获取pkey。
 
@@ -61,7 +60,6 @@
 
         **图 3**  检查环境变量<a name="fig15694985479"></a>  
         ![](figures/检查环境变量.png "检查环境变量")
-
 
 3.  在单个BMS上运行Platform MPI。
     1.  执行以下命令，重新编译hello.c文件。

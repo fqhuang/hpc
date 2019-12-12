@@ -32,7 +32,6 @@
         -   如果上述两条命令均有如[图1](#zh-cn_topic_0062552876_fig5899822121240)所示的返回值，则已安装IB驱动，执行[3](#li8761273191930)。
         -   如果返回值与[图1](#zh-cn_topic_0062552876_fig5899822121240)不同，表示弹性云服务器未安装IB驱动，执行[2](#zh-cn_topic_0062552876_li3820510221542)。
 
-
 2.  <a name="zh-cn_topic_0062552876_li3820510221542"></a>下载并安装对应的IB驱动。
 
     在Mellanox官网[http://www.mellanox.com/page/products\_dyn?product\_family=26&mtag=linux\_sw\_drivers](http://www.mellanox.com/page/products_dyn?product_family=26&mtag=linux_sw_drivers)，选择相应版本的InfiniBand网卡驱动下载，并根据Mellanox提供的操作指导进行安装。
@@ -66,7 +65,6 @@
         ![](figures/查看MPI环境变量.png "查看MPI环境变量")
 
         系统回显结果如[图2](#fig14183907112719)所示，则环境配置正常。
-
 
 4.  执行以下命令，在单个弹性云服务器上运行Intel MPI benchmark。
 

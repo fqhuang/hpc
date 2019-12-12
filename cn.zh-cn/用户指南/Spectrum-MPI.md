@@ -39,7 +39,6 @@
 
         下载地址：[http://www.mellanox.com/page/products\_dyn?product\_family=189&mtag=hpc-x](http://www.mellanox.com/page/products_dyn?product_family=189&mtag=hpc-x)
 
-
 2.  安装HPC-X工具套件。
     1.  将[1](#li53636217498)中下载的HPC-X压缩包上传至运行MPI的弹性云服务器内。
     2.  执行以下命令，解压HPC-X工具套件。
@@ -51,7 +50,6 @@
         **$ cd hpcx-v2.0.0-gcc-MLNX\_OFED\_LINUX-4.2-1.2.0.0-redhat7.3-x86\_64**
 
         **$ export HPCX\_HOME=$PWD**
-
 
 3.  安装IBM Spectrum MPI。
     1.  将[1](#li53636217498)中下载的MPI软件包上传至运行MPI的弹性云服务器内。
@@ -67,7 +65,6 @@
         -   如果选择手动接受IBM Spectrum MPI安装许可协议，执行以下命令：
 
             **\# export IBM\_SPECTRUM\_MPI\_LICENSE\_ACCEPT=no**
-
 
     4.  安装License部分。
         -   选择自动接受IBM Spectrum MPI安装许可协议的，执行以下命令：
@@ -85,14 +82,12 @@
 
             **\# sh /opt/ibm/spectrum\_mpi/lap\_se/bin/accept\_spectrum\_mpi\_license.sh**
 
-
     5.  执行以下命令，安装软件部分。
 
         **\# rpm -ivh ibm\_smpi-10.1.0.3eval\_170901-rh7\_Apr11.x86\_64.rpm**
 
         **图 2**  安装软件<a name="fig3493182311374"></a>  
         ![](figures/安装软件.png "安装软件")
-
 
 4.  配置MPI环境变量。
     1.  默认情况下，Spectrum MPI会安装至“/opt/ibm/spectrum\_mpi“目录。该场景下需要设置如下环境变量：
@@ -113,7 +108,6 @@
 
         **图 3**  查看环境变量<a name="fig98833323717"></a>  
         ![](figures/查看环境变量.png "查看环境变量")
-
 
 5.  执行以下命令，在单个弹性云服务器上通过Spectrum MPI运行可执行文件。
     1.  执行以下命令，编辑文件。

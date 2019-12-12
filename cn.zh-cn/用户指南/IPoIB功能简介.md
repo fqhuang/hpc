@@ -4,7 +4,7 @@
 
 IPoIB（Internet Protocol over InfiniBand），指利用物理IB网络（包括服务器上的IB卡、IB连接线、IB交换机等）通过IP协议进行连接，并进行数据传输。
 
-它提供了基于RDMA之上的IP网络模拟层，允许应用无修改的运行在Infiniband网络上。但是，IPoIB性能比RDMA通信方式性能要低，大多数应用都会采用RDMA方式获取高带宽低延时的收益，少数的关键应用会采用IPoIB方式通信。
+它提供了基于RDMA之上的IP网络模拟层，允许应用无修改的运行在InfiniBand网络上。但是，IPoIB性能比RDMA通信方式性能要低，大多数应用都会采用RDMA方式获取高带宽低延时的收益，少数的关键应用会采用IPoIB方式通信。
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
 >无修改：指运行在IP协议上的应用不需要作任何修改，即可适配IB网络运行。  

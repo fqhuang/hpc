@@ -24,7 +24,6 @@
 
         **\# mv hpcx-v2.2.0-gcc-MLNX\_OFED\_LINUX-4.3-1.0.1.0-redhat7.3-x86\_64 /opt/hpcx-v2.2.0**
 
-
 2.  安装OpenMPI。
     1.  下载社区OpenMPI，版本号为“openmpi-3.1.0.tar.gz”。
 
@@ -45,7 +44,6 @@
             **图 1**  安装binutils-devel.x86\_64等依赖包成功<a name="fig12484891154724"></a>  
             ![](figures/安装binutils-devel-x86_64等依赖包成功.png "安装binutils-devel-x86_64等依赖包成功")
 
-
     5.  执行以下命令，安装编译OpenMPI。
 
         **\# ./autogen.pl**
@@ -58,7 +56,6 @@
 
         **图 2**  OpenMPI安装成功<a name="fig57554999154724"></a>  
         ![](figures/OpenMPI安装成功.png "OpenMPI安装成功")
-
 
 3.  配置MPI环境变量。
     1.  普通用户下，在“\~/.bashrc”中添加如下环境变量：
@@ -79,7 +76,6 @@
         ![](figures/环境变量正常.png "环境变量正常")
 
         回显如[图3](#fig38292731154724)所示表示环境变量正常。
-
 
 4.  执行以下命令，在单个BMS上运行社区OpenMPI。
     1.  执行以下命令，生成可执行文件。
@@ -115,7 +111,7 @@
 
         **$ mpicc hello.c -o hello**
 
-        >![](public_sys-resources/icon-notice.gif) **注意：**   
+        >![](public_sys-resources/icon-notice.gif) **须知：**   
         >不同版本的MPI运行的hello文件是不同的，都需要使用命令**mpicc hello.c -o hello**对hello.c文件重新编译。  
 
     2.  执行以下命令，在单个BMS上运行社区OpenMPI。
